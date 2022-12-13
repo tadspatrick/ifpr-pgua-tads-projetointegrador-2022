@@ -1,18 +1,18 @@
 package ifpr.pgua.eic.projetointegrador.controllers.viewmodels;
 
-import ifpr.pgua.eic.projetointegrador.model.entities.Livro;
+import ifpr.pgua.eic.projetointegrador.model.entities.Produto;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 public class LivroRow {
     
-    private Livro livro;
+    private Produto livro;
     
-    public LivroRow(Livro livro){
+    public LivroRow(Produto livro){
         this.livro = livro;
     }
 
-    public Livro getLivro(){
+    public Produto getLivro(){
         return livro;
     }
 
